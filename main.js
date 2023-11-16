@@ -1,3 +1,9 @@
 const $root = document.querySelector("#root");
 
-console.log($root);
+const tempH1 = document.createElement("h1");
+
+tempH1.textContent = "Trabalho em progresso...";
+
+$root.insertAdjacentElement("beforeend",
+    tempH1
+);
