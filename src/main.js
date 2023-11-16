@@ -1,7 +1,7 @@
-import "./src/styles/settings/fonts.css";
-import "./src/styles/settings/colors.css";
-import "./src/styles/generic/reset.css"; 
-import "./src/styles/elements/base.css";
+import "./styles/settings/fonts.css";
+import "./styles/settings/colors.css";
+import "./styles/generic/reset.css"; 
+import "./styles/elements/base.css";
 
 const $root = document.querySelector("#root");
 
