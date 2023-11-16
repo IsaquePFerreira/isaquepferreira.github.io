@@ -1,3 +1,5 @@
+import "./src/styles/generic/reset.css"; 
+
 const $root = document.querySelector("#root");
 
 const tempH1 = document.createElement("h1");
