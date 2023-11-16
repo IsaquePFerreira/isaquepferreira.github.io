@@ -3,12 +3,12 @@ import "./styles/settings/colors.css";
 import "./styles/generic/reset.css"; 
 import "./styles/elements/base.css";
 
+import MainHeader from "./components/MainHeader";
+
 const $root = document.querySelector("#root");
 
-const tempH1 = document.createElement("h1");
-
-tempH1.textContent = "Trabalho em progresso...";
-
-$root.insertAdjacentElement("beforeend",
-    tempH1
+$root.insertAdjacentHTML("beforeend",
+    `
+    ${MainHeader()}
+    `
 );
