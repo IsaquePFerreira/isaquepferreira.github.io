@@ -7,9 +7,11 @@ function MainHeader() {
     return `
         <header class="main-header">
         ${MainTitle()}
-        ${ActionOption("#projects", "Projetos")}
-        ${ActionOption("#about", "Sobre")}
-        ${ActionOption("#github", "GitHub")}
+        <nav>
+            ${ActionOption("#projects", "Projetos")}
+            ${ActionOption("#about", "Sobre")}
+            ${ActionOption("#github", "GitHub")}
+        </nav>
         </header>
     `;
 }
