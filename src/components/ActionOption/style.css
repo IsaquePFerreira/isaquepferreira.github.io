@@ -1,0 +1,11 @@
+.action-option {
+    text-decoration: none;
+    color: var(--white);
+    font-family: var(--default-font);
+    font-weight: 500;
+    font-size: 1.9em;
+}
+
+.action-option:hover {
+    color: var(--lime-green-hover);
+}
