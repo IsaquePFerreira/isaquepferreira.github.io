@@ -4,6 +4,7 @@
     font-family: var(--default-font);
     font-weight: 500;
     font-size: 1.88em;
+    padding-left: 20px;
 }
 
 .action-option:hover {
