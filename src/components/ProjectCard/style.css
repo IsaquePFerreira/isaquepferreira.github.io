@@ -1,0 +1,23 @@
+.project-card {
+    width: 200px;
+    height: 200px;
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+.project-card .image {
+    width: 100%;
+    border-radius: 2px;
+}
+
+.project-card .title {
+    font-size: 1.88em;
+    color: var(--lime-green);
+    text-decoration: underline;
+}
+
+.project-card:hover .title {
+    color: var(--lime-green-hover);
+}
