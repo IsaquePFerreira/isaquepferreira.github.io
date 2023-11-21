@@ -1,6 +1,6 @@
 import "./style.css";
 
-function MainSection() {
+function MainSection(subtitle = "") {
     return `
         <section class="main-section">
         </section>
