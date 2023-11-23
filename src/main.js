@@ -4,14 +4,13 @@ import "./styles/generic/reset.css";
 import "./styles/elements/base.css";
 
 import MainHeader from "./components/MainHeader";
-import MainSection from "./components/MainSection";
+import MainContainer from "./objects/MainContainer";
 
 const $root = document.querySelector("#root");
 
 $root.insertAdjacentHTML("beforeend",
     `
     ${MainHeader()}
-    ${MainSection("Projetos")}
-    ${MainSection("Sobre")}
+    ${MainContainer()}
     `
 );
