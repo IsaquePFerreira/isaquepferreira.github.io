@@ -14,7 +14,7 @@ function MainContainer() {
     return `
         <div class="main-container">
             ${MainSection("Projetos", $htmlProjects)}
-            ${MainSection("Sobre", ProfilePicture("../images/profile-rounded.png", "Imagem Isaque P. Ferreira programador"))}
+            ${MainSection("Sobre", ProfilePicture("./images/profile-rounded.png", "Imagem Isaque P. Ferreira programador"))}
         </div>
     `;
 }
