@@ -13,13 +13,13 @@ const $htmlProjects = htmlProjectsList.join("");
 
 const $htmlAbout = ProfilePicture("/images/profile-rounded.png", "Imagem Isaque P. Ferreira programador") + MainParagraph();
 
-function MainContainer() {
+function MainContent() {
     return `
-        <div class="main-container">
+        <div class="main-content">
             ${MainSection("Projetos", $htmlProjects)}
             ${MainSection("Sobre", $htmlAbout)}
         </div>
     `;
 }
 
-export default MainContainer;
+export default MainContent;
