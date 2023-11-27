@@ -4,7 +4,7 @@ import MainSection from "../../components/MainSection";
 import ProjectCard from "../../components/ProjectCard";
 import ProfilePicture from "../../components/ProfilePicture";
 
-import projects from "../../projects";
+import projects from "/projects";
 
 const htmlProjectsList = projects.map((project) =>
     ProjectCard(project.url, project.image, project.altImage, project.title));
