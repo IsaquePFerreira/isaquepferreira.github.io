@@ -1,7 +1,7 @@
 import "./style.css";
 
 function WrapperItems(items) {
-    return `
+	return `
         <div class="wrapper-items">
             ${items}
         </div>

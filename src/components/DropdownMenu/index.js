@@ -1,7 +1,7 @@
 import "./style.css";
 
 function DropdownMenu() {
-    return `
+	return `
         <div class="dropdown-menu">
             <a href="#contactics" class="button">Contatos</a>
             <div class="content">

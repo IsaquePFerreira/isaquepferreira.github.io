@@ -9,7 +9,7 @@ import MainContent from "./objects/MainContent";
 const $root = document.querySelector("#root");
 
 $root.insertAdjacentHTML("beforeend",
-    `
+	`
     ${MainHeader()}
     ${MainContent()}
     `

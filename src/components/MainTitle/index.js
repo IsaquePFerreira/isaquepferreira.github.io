@@ -1,7 +1,7 @@
 import "./style.css";
 
 function MainTitle() {
-    return `
+	return `
         <h1 class="main-title">:~$IsaquePFerreira</h1>
     `;
 }

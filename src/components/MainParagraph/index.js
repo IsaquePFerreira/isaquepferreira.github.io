@@ -1,5 +1,5 @@
 function MainParagraph(text = "Texto aqui...") {
-    return `
+	return `
         <p class="main-paragraph">
            ${text} 
         </p>

@@ -5,7 +5,7 @@ import ActionOption from "../ActionOption";
 import DropdownMenu from "../DropdownMenu";
 
 function MainHeader() {
-    return `
+	return `
         <header class="main-header">
         ${MainTitle()}
         <nav>

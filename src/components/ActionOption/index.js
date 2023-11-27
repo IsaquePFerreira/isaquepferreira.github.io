@@ -1,7 +1,7 @@
 import "./style.css";
 
 function ActionOption(url, label) {
-    return `
+	return `
         <a class="action-option" href="${url}">${label}</a>
     `;
 }
