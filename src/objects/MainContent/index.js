@@ -4,7 +4,6 @@ import MainSection from "../../components/MainSection";
 import ProjectCard from "../../components/ProjectCard";
 import ProfilePicture from "../../components/ProfilePicture";
 import MainParagraph from "../../components/MainParagraph";
-import MainFooter from "../../components/MainFooter";
 
 import projects from "/projects";
 
@@ -19,7 +18,6 @@ function MainContent() {
         <div class="main-content">
             ${MainSection("Projetos", $htmlProjects)}
             ${MainSection("Sobre", $htmlAbout)}
-            ${MainFooter()}
         </div>
     `;
 }

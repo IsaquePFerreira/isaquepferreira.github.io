@@ -5,6 +5,7 @@ import "./styles/elements/base.css";
 
 import MainHeader from "./components/MainHeader";
 import MainContent from "./objects/MainContent";
+import MainFooter from "./components/MainFooter";
 
 const $root = document.querySelector("#root");
 
@@ -12,5 +13,6 @@ $root.insertAdjacentHTML("beforeend",
 	`
     ${MainHeader()}
     ${MainContent()}
+    ${MainFooter()}
     `
 );
