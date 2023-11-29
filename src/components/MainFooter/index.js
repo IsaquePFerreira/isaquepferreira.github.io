@@ -1,7 +1,7 @@
 import "./style.css";
 
 function MainFooter() {
-    return `
+	return `
         <footer class="main-footer">
             <p class="copy">&copy; IsaquePFerreira 2023</p>
         </footer>
