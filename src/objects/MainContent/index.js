@@ -1,9 +1,9 @@
 import "./style.css";
 
-import MainSection from "../../components/MainSection";
-import ProjectCard from "../../components/ProjectCard";
-import ProfilePicture from "../../components/ProfilePicture";
-import MainParagraph from "../../components/MainParagraph";
+import MainSection from "/components/MainSection";
+import ProjectCard from "/components/ProjectCard";
+import ProfilePicture from "/components/ProfilePicture";
+import MainParagraph from "/components/MainParagraph";
 
 import projects from "/projects";
 
