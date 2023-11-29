@@ -1,0 +1,11 @@
+.main-footer {
+    background-color: var(--gray);
+    color: var(--lime-green);
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.main-footer .copy {
+    text-align: center;
+}
