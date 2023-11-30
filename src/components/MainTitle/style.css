@@ -5,11 +5,6 @@
     font-size: 2em;
 }
 
-.main-title a {
-    color: var(--white);
-    text-decoration: none;
-}
-
 .main-title span {
     color: var(--lime-green);
 }
