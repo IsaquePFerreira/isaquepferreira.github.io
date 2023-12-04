@@ -2,7 +2,7 @@ import "./style.css";
 
 import MainTitle from "../MainTitle";
 import ActionOption from "../ActionOption";
-import DropdownMenu from "../DropdownMenu";
+import MediaButton from "/components/MediaButton";
 
 function MainHeader() {
 	return `
@@ -11,8 +11,9 @@ function MainHeader() {
         <nav>
             ${ActionOption("#projects", "Projetos")}
             ${ActionOption("#about", "Sobre")}
-            ${ActionOption("#github", "GitHub")}
-            ${DropdownMenu()}
+            ${MediaButton("https://github.com/IsaquePFerreira", "/images/github.svg", "Veja meu GitHub com meus projetos")}
+            ${MediaButton("mailto:pferreiraisaque4@gmail.com", "/images/mail.svg", "Mande um email")}
+            ${MediaButton("https://instagram.com/isaquepferreira/", "/images/instagram.svg", "Me segue no Instagram")}
         </nav>
         </header>
     `;
