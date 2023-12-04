@@ -1,4 +1,7 @@
 .main-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: var(--gray);
     color: var(--lime-green);
     padding-top: 25px;
