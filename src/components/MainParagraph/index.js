@@ -1,3 +1,4 @@
+import "./style.css";
 function MainParagraph(text = "Texto aqui...") {
 	return `
         <p class="main-paragraph">
