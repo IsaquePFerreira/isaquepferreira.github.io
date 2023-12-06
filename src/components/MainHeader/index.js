@@ -10,6 +10,7 @@ function MainHeader() {
         ${MainTitle()}
         <nav>
             ${ActionOption("#projects", "Projetos")}
+            ${ActionOption("#skills", "Skills")}
             ${ActionOption("#about", "Sobre")}
             ${MediaButton("https://github.com/IsaquePFerreira", "/images/github.svg", "Veja meu GitHub com meus projetos")}
             ${MediaButton("mailto:pferreiraisaque4@gmail.com", "/images/mail.svg", "Mande um email")}
