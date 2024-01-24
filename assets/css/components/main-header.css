@@ -1,0 +1,59 @@
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2D2F31;
+    color: #FFFFFF;
+}
+
+.main-header .title {
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.main-header .icon-menu {
+    font-size: 32px;
+    color: #2DE72B;
+    padding: 20px;
+}
+
+.main-header .main-nav {
+    display: none;
+    position: fixed;
+    top: 66px;
+    left: 0;
+    background-color: #2D2F31;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-header .main-nav.-visible {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-header .action-option {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (min-width: 980px) {
+    .main-header .icon-menu {
+        display: none;
+    }
+    
+    .main-header .main-nav {
+        position: static;
+        display: inline;
+        width: auto;
+    }
+
+    .main-header .action-option {
+        padding: 10px 20px;
+    }
+}
