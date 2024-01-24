@@ -4,20 +4,29 @@
         <title>IsaquePFerreira - Programador Web</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/main.css">
     </head>
     <body>
         <!-- Header-->
-        <header>
-            <h1>IsaquePFerreira</h1>
-            <nav>
-                <a href="#projects">Projetos</a>
-                <a href="#skills">Skills</a>
-                <a href="#about">Sobre</a>
-                <a href="#contact">Contactos</a>
+        <header class="main-header">
+            <h1 class="title">IsaquePFerreira</h1>
+            <a class="icon-menu" href="#menu">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+            <nav id="menu" class="main-nav">
+                <a class="action-option"href="#projects">Projetos</a>
+                <a class="action-option"href="#skills">Skills</a>
+                <a class="action-option"href="#about">Sobre</a>
+                <a class="action-option"href="#contact">Contatos</a>
             </nav>
         </header>
         <!--Title-->
-        <h1>IsaquePFerreira</h1>
+        <h1 class="main-title">IsaquePFerreira</h1>
         <h2>Programador Web</h1>
         <a href="#curriculum">Download CV</a>
         <a href="#github">GitHub</a>
@@ -39,5 +48,6 @@
         </section>
         <!--Footer-->
         <footer>&copy;IsaquePFerreira 2024</footer>
+        <script src="assets/js/main-nav.js"></script>
     </body>
 </html>
