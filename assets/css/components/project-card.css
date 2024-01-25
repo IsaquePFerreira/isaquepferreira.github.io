@@ -1,0 +1,20 @@
+.project-card {
+    width: 300px;
+}
+
+.project-card img {
+    width: 100%;
+}
+
+.project-card .title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.project-card a {
+    color: #2DE731;
+}
+
+.project-card a:hover {
+    color: #29D027;
+}
