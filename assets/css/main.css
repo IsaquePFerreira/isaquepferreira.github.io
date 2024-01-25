@@ -7,6 +7,8 @@
 @import "./components/main-subtitle.css";
 @import "./components/action-button.css";
 @import "./components/wrapper-items.css";
+@import "./components/project-card.css";
+@import "./components/flex-card.css";
 
 body {
     /* background-color: #2D2F31; */
