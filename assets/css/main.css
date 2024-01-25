@@ -13,15 +13,6 @@ body {
     font-weight: 400;
 }
 
-a {
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #2FE72B;
-}
-
 section {
     margin-top: 100px;
 }

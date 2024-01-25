@@ -1,9 +1,10 @@
 .action-button {
     background-color: #2DE731;
     padding: 15px;
-    color: #FFF;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .action-button:hover {

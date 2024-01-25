@@ -38,8 +38,14 @@
 }
 
 .main-header .action-option {
+    text-decoration: none;
+    color: #FFFFFF;
     font-size: 30px;
     font-weight: 600;
+}
+
+.main-header .action-option:hover {
+    color: #2DE731;
 }
 
 @media (min-width: 980px) {
