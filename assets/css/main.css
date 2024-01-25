@@ -5,6 +5,7 @@
 @import "./components/main-header.css";
 @import "./components/main-title.css";
 @import "./components/main-subtitle.css";
+@import "./components/action-button.css";
 
 body {
     /* background-color: #2D2F31; */
