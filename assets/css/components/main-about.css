@@ -1,0 +1,31 @@
+.main-about {
+    margin: 0 auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-about .img {
+    width: 100%;
+}
+
+.main-about .text {
+    font-size: 1.2em;
+}
+
+@media (min-width: 980px) {
+    .main-about {
+        width: 500px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-about .img {
+        width: 50%;
+    }
+
+    .main-about .text {
+        width: 50%;
+    }
+}
