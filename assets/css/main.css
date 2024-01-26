@@ -9,6 +9,9 @@
 @import "./components/wrapper-items.css";
 @import "./components/project-card.css";
 @import "./components/flex-card.css";
+@import "./components/skills-title.css";
+@import "./components/skills-list.css";
+@import "./components/skills-container.css";
 
 body {
     /* background-color: #2D2F31; */
