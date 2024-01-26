@@ -13,6 +13,17 @@
 @import "./components/skills-list.css";
 @import "./components/skills-container.css";
 
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+
+
 body {
     /* background-color: #2D2F31; */
     font-family: "Inconsolata", monospace;
