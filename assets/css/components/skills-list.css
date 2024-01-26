@@ -1,0 +1,34 @@
+.skills-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills-list .skill {
+    font-size: 1.5em;
+}
+
+.html {
+    color: #f16529;
+}
+
+.css {
+    color: #33a9dc;
+}
+
+.javascript {
+    color: #f0db4f;
+}
+
+.bootstrap {
+    color: #7311f6;
+}
+
+.git {
+    color: #f34f29;
+}
+
+.docker {
+    color: #28b8eb;
+}
