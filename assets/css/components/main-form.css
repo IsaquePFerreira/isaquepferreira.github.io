@@ -1,0 +1,25 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-form .main-label {
+    align-self: flex-start;
+    font-size: 28px;
+}
+
+.main-form .main-input {
+    height: 40px;
+    width: 100%;
+}
+
+.main-form .main-input.-textarea {
+    height: 200px;
+}
+
+
