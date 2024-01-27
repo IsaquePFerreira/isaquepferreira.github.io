@@ -14,6 +14,7 @@
 @import "./components/skills-container.css";
 @import "./components/main-about.css";
 @import "./components/main-form.css";
+@import "./components/main-footer.css";
 
 @media (prefers-reduced-motion: no-preference) {
     html {
