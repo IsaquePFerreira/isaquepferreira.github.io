@@ -101,7 +101,26 @@
         </section>
         <!--Contact-->
         <section>
-            <h2 id="contact" class="main-subtitle">Contato</h2>
+            <form method="https://formsubmit.co/pferreiraisaque4@gmail.com" action="POST" class="main-form">
+                <legend class="main-subtitle">Contato</legend>
+                <input type="hidden" name="_autoresponse" value="Muito obrigado
+                por nos enviar um email, logo entraremos em contato!">
+                <input type="hidden" name="_next"
+                value="https://isaquepferreira.github.io/thanks.html">
+                <label class="main-label" for="name">Nome:</label>
+                <input class="main-input" type="text" id="name"
+                    name="name" required>
+                <label class="main-label" for="email">Email:</label>
+                <input class="main-input" type="email" id="email"
+                    name="email" required>
+                <label class="main-label" for="message">Mensagem:</label>
+                <textarea class="main-input -textarea" name="message"
+                    id="message">
+                </textarea>
+                <button class="action-button -full" type="submit">
+                    Enviar
+                </button>
+            </form>
         </section>
         <!--Footer-->
         <footer>&copy;IsaquePFerreira 2024</footer>

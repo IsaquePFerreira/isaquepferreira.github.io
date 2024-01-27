@@ -13,6 +13,7 @@
 @import "./components/skills-list.css";
 @import "./components/skills-container.css";
 @import "./components/main-about.css";
+@import "./components/main-form.css";
 
 @media (prefers-reduced-motion: no-preference) {
     html {
