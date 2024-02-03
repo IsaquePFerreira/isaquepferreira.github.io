@@ -16,6 +16,7 @@
 .main-form .main-input {
     height: 40px;
     width: 100%;
+    border: solid 2px #2F2D31;
 }
 
 .main-form .main-input.-textarea {
