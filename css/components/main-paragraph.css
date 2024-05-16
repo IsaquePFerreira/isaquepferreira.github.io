@@ -1,0 +1,6 @@
+.main-paragraph {
+    color: var(--fg-color);
+    width: 580px;
+    padding-bottom: 10px;
+    text-align: justify;
+}

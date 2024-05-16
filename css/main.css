@@ -1,11 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 
+*/
+
+@import "reset.css";
+@import "components/main-title.css";
+@import "components/main-subtitle.css";
+@import "components/project-name.css";
+@import "components/main-paragraph.css";
+@import "components/action-option.css";
+
+:root {
+    --bg-color: #2D2F31;
+    --fg-color: #FFFFFF;
+    --hl-color: #2DE72B;
+    --hl-color-hover: #2DE72B80;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.container {
+    padding: 20px;
+}
+
+
+/*
+
 @import "./components/main-header.css";
-@import "./components/main-title.css";
+*/
+/*
 @import "./components/main-subtitle.css";
-@import "./components/action-button.css";
 @import "./components/wrapper-items.css";
 @import "./components/project-card.css";
 @import "./components/flex-card.css";
@@ -36,3 +66,4 @@ body {
 section {
     margin-top: 100px;
 }
+*/
