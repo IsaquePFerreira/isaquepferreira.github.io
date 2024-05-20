@@ -1,7 +1,7 @@
 .action-button {
-    background-color: #2DE731;
+    background-color: var(--hl-color);
     padding: 15px;
-    color: #FFFFFF;
+    color: var(--fg-color);
     font-weight: 700;
     font-size: 16px;
     text-decoration: none;
@@ -11,8 +11,8 @@
 }
 
 .action-button:hover {
-    background-color: #29D027;
-    color: #E6E6E6;
+    background-color: var(--hl-color);
+    color: var(--fg-color);
 }
 
 .action-button.-full {

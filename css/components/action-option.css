@@ -1,0 +1,11 @@
+.action-option {
+    text-decoration: underline;
+    color: var(--hl-color);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.action-option:hover {
+    color: var(--hl-color-hover);
+}
+
